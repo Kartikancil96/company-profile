@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOCAP</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">GOCAP</a>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login/Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Second Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Service
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Service 1</a></li>
+              <li><a class="dropdown-item" href="#">Service 2</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimoni</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/aboutus.jpeg" class="d-block w-100" alt="Tentang Kami">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>About Us</h5>
+          <p>GOCAP adalah perusahaan yang bergerak di bidang toserba yang dibuat khusus untuk penyandang disabilitas
+            tertentu.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/jasakami.jpeg" class="d-block w-100" alt="Jasa Kami">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Our Services</h5>
+          <p>Kami menawarkan berbagai layanan yang meliputi pengiriman cepat, layanan pelanggan 24/7, dan produk
+            berkualitas tinggi.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/whyus.jpeg" class="d-block w-100" alt="Mengapa Memilih kami?">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Why Choose Us?</h5>
+          <p>Kami peduli dengan kesejahteraan pelanggan kami dan selalu berusaha memberikan yang terbaik.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Visi dan Misi -->
+  <div class="container my-5">
+    <h2>Visi dan Misi</h2>
+    <p><strong>Visi:</strong> Menjadi perusahaan toserba terdepan yang menyediakan layanan terbaik bagi penyandang
+      disabilitas.</p>
+    <p><strong>Misi:</strong> Memberikan kemudahan akses dan layanan berkualitas untuk memenuhi kebutuhan sehari-hari
+      pelanggan kami.</p>
+  </div>
+
+  <!-- Kategori Service -->
+  <div class="container my-5">
+    <h2>Kategori Service</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="service1.jpg" class="card-img-top" alt="Service 1">
+          <div class="card-body">
+            <h5 class="card-title">Service 1</h5>
+            <p class="card-text">Deskripsi singkat mengenai service 1.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="service2.jpg" class="card-img-top" alt="Service 2">
+          <div class="card-body">
+            <h5 class="card-title">Service 2</h5>
+            <p class="card-text">Deskripsi singkat mengenai service 2.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="service3.jpg" class="card-img-top" alt="Service 3">
+          <div class="card-body">
+            <h5 class="card-title">Service 3</h5>
+            <p class="card-text">Deskripsi singkat mengenai service 3.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="service3.jpg" class="card-img-top" alt="Service 3">
+          <div class="card-body">
+            <h5 class="card-title">Service 4</h5>
+            <p class="card-text">Deskripsi singkat mengenai service 3.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="service3.jpg" class="card-img-top" alt="Service 3">
+          <div class="card-body">
+            <h5 class="card-title">Service 5</h5>
+            <p class="card-text">Deskripsi singkat mengenai service 3.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="service3.jpg" class="card-img-top" alt="Service 3">
+          <div class="card-body">
+            <h5 class="card-title">Service 6</h5>
+            <p class="card-text">Deskripsi singkat mengenai service 3.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimoni -->
+  <div class="container my-5">
+    <h2>Testimoni</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <blockquote class="blockquote">
+          <p class="mb-0">Layanan GOCAP sangat membantu saya dalam memenuhi kebutuhan sehari-hari.</p>
+          <footer class="blockquote-footer">John Doe</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-4">
+        <blockquote class="blockquote">
+          <p class="mb-0">Produk yang disediakan sangat berkualitas dan pengirimannya cepat.</p>
+          <footer class="blockquote-footer">Jane Smith</footer>
+        </blockquote>
+      </div>
+      <div class="col-md-4">
+        <blockquote class="blockquote">
+          <p class="mb-4">Saya sangat puas dengan layanan pelanggan GOCAP yang responsif.</p>
+          <footer class="blockquote-footer">Michael Johnson</footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div id="footer" class="bg-primary">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-lg-3 g-4 border-bottom border-2 text-light py-3">
+            <div class="col">
+                <h2 class="fw-bold text-light letter-spacing mb-2" href="#">GOCAP</h2>
+                <p class="m-0 text-light letter-spacing mb-2 fw-bold">Contact Us</p>
+                <div class="d-flex gap-2 mb-2">
+                    <i class="fab fa-whatsapp text-light fs-5 mt-1"></i>
+                    <p class="m-0 text-light letter-spacing">+62 9999 9999 9999</p>
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                    <i class="fas fa-phone text-light fs-5 mt-1"></i>
+                    <p class="m-0 text-light letter-spacing">+62 9999 9999 9999</p>
+                </div>
+                <div class="d-flex gap-2 mb-2">
+                    <i class="far fa-envelope text-light fs-5 mt-1"></i>
+                    <p class="m-0 text-light letter-spacing">services@gocap.com</p>
+                </div>
+                <p class="m-0 text-light letter-spacing my-3 fw-bold">Download App</p>
+                <div class="d-flex gap-3 flex-column flex-md-row">
+                    <img src="https://res.cloudinary.com/dlztfnjur/image/upload/v1719386347/image_10_vqtghx.png"
+                        class="w-50">
+                    <img src="https://res.cloudinary.com/dlztfnjur/image/upload/v1719386351/image_11_qs8ytt.png"
+                        class="w-50">
+                </div>
+            </div>
+            <div class="col">
+                <div class="border-bottom border-2 mb-4 w-75">
+                    <p class="m-0 text-light letter-spacing fw-bold pb-2 fs-4">Most Popular Categories</p>
+                </div>
+                <ul class="text-light pl-0">
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">Service 1</p>
+                    </li>
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">Service 2</p>
+                    </li>
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">Service 3</p>
+                    </li>
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">Service 4</p>
+                    </li>
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">Service 5</p>
+                    </li>
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">Service 6</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <div class="border-bottom border-2 mb-4 w-50">
+                    <p class="m-0 text-light letter-spacing fw-bold pb-2 fs-4">Customer Services</p>
+                </div>
+                <ul class="text-light pl-0">
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">Abouts</p>
+                    </li>
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">Term & Conditions</p>
+                    </li>
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">FAQ</p>
+                    </li>
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">Privacy Policy</p>
+                    </li>
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">E-waste Policy</p>
+                    </li>
+                    <li>
+                        <p class="m-0 text-light letter-spacing mb-2">Cancellation & Return Policy</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+            <p class="text-white fs-5 m-0 py-3">&copy; 2024 Gocap</p>
+        </div>
+    </div>
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JavaScript -->
+    <!--
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+-->
+
+</body>

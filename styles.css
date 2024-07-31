@@ -1,0 +1,61 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8fa; /* Background color */
+}
+
+.navbar-light {
+    background-color: #007bff; /* Primary blue shade */
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .nav-link {
+    color: rgb(0, 36, 94);
+}
+
+.navbar-dark {
+    background-color: #0056b3; /* Darker blue shade */
+}
+
+.navbar-dark .nav-link {
+    color: white;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for captions */
+    color: white;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+h2 {
+    color: #0056b3; /* Darker blue for headings */
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #007bff; /* Primary blue shade for card titles */
+}
+
+.blockquote-footer {
+    color: #0056b3; /* Darker blue for blockquote footers */
+}
+
+footer {
+    background-color: #007bff; /* Primary blue shade for footer */
+    color: white;
+}
+
+footer a {
+    color: #ffdd57; /* Highlight links in footer */
+}
+
+footer iframe {
+    margin-top: 10px;
+}
